@@ -6,7 +6,7 @@ using UnityEngine;
 public class H2PoolExample : MonoBehaviour
 {
     [SerializeField] private int poolSize = 3; //default pool size
-    [SerializeField] private bool autoExtend = false; //default возможность или невозможность to automatically extend the pool
+    [SerializeField] private bool autoExtend = false; //default ability or disability to automatically extend the pool
     [SerializeField] private H2Cube h2CubePrefab; // prefab reference
     [SerializeField] private float horizontalConstraint; //horizontal constraint of a spawn zone
     [SerializeField] private float verticalConstraint; //vertical constraint of a spawn zone
